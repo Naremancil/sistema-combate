@@ -1,0 +1,40 @@
+.enemy{
+    border: 1px solid gray;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    border-bottom: 1px solid gray;
+    margin-bottom: 4px;
+}
+
+
+.status_field{
+    margin-inline: 5px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.item span{
+    font-weight: bold;
+}

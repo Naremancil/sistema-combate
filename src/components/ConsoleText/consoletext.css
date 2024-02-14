@@ -1,0 +1,16 @@
+.consoleText textarea{
+    overflow-y: scroll;
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+
+.consoleText textarea:focus {
+    animation: scrollDown 0.1s linear forwards;
+}
+
+@keyframes scrollDown {
+    to {
+        scrollTop: 9999px;
+    }
+}
