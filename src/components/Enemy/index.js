@@ -8,6 +8,7 @@ const Enemy = ({ name, ficha }) => {
                 <p>hp: {ficha[0].hp}</p>
             </div>
             <div className='status'>
+                {/* Isso daqui podia ser um componente né... */}
                 <p className='status_field'>str: {ficha[0].str}</p>
                 <p className='status_field'>dex: {ficha[0].dex}</p>
                 <p className='status_field'>int: {ficha[0].int}</p>

@@ -32,8 +32,7 @@ function App() {
   const [buttonDisabler, setButton] = useState(false)
   const [mensagem, setMensagem] = useState('')
 
-
-
+  // precisaria pensar melhor nas variáveis, algo pra melhorar o fluxo delas talvez.
   const aindaVivo = () => {
     if(enemy[0].hp <= 0) {
       setPlayer([...player, player[0].exp += enemy[0].exp])
@@ -62,8 +61,9 @@ function App() {
   }
 
 
-
   return (
+
+    // Aqui eu acho que está okay o código, curto e rápido, da pra entender bem
     <div className="App">
       <section className='battlefield'>
         <Player 

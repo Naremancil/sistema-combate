@@ -5,6 +5,7 @@ const Player = ({ name, ficha, battle, statusBatalha, descansar }) => {
         battle()
     }
 
+    // Talvez eu esteja fazendo isso errado, me parece muito errado kkkkk
     function regenerar(){
         descansar()
     }
@@ -16,6 +17,7 @@ const Player = ({ name, ficha, battle, statusBatalha, descansar }) => {
                 <p>hp: {ficha[0].hp}</p>
                 <p>exp: {ficha[0].exp}</p>
             </div>
+            {/* tenho que lembrar de não me repetir nesse sentido, fazer um componente pra isso */}
             <div className='status'>
                 <p className='status_field'>str: {ficha[0].str}</p>
                 <p className='status_field'>dex: {ficha[0].dex}</p>

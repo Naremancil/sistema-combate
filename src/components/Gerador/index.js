@@ -2,6 +2,7 @@ import './gerador.css'
 
 const Gerador = ({ escolha, statusBatalha }) => {
     
+  // Goblin feito pra lutar contra o player manualmente
     const goblin = [
         {
           hp: 10,
@@ -18,6 +19,8 @@ const Gerador = ({ escolha, statusBatalha }) => {
           damage: 2,
         }
     ]
+
+  // Goblin melhor, um desafio a mais
       const goblin_guerreiro = [
         {
           hp: 10,
